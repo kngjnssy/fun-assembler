@@ -29,8 +29,7 @@ newfilepath = filelocation / hack_file
 output = "\n".join([l for l in composed_binaries if l]) 
 
 with open(newfilepath, 'w') as f:
-    for i in output:
-        f.write(i)
+    f.write("".join([i for i in output]))
 
 # +1. time the process 
 end = time.time()

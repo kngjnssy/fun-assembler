@@ -6,7 +6,7 @@
 
 clone and type:
 
-- "python3 assembler.py test/Add.asm" - to run the basic version.
+- "python3 assembler.py test/Add.asm" - to run the basic version with functions and loops.
 - "python3 fun_assembler.py test/Add.asm" - to run the (not entirely pure) functional approach.
 - "python3 shorter_fun.py test/Add.asm" - for the (not entirely pure) even shorter (via composing functions) approach.
 
